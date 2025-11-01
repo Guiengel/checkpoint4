@@ -1,0 +1,23 @@
+[
+{
+  "id": 1,  
+  "local": "Toronto",
+  "acontecimento": "furacão",
+  "pessoasImpactadas": 51,
+  "data": "2025-11-01"
+},
+{
+  "id": 2,  
+  "local": "Toronto",
+  "acontecimento": "furacão",
+  "pessoasImpactadas": 52,
+  "data": "2025-11-01"
+},
+{
+  "id": 3,  
+  "local": "Toronto",
+  "acontecimento": "furacão",
+  "pessoasImpactadas": 53,
+  "data": "2025-11-01"
+}
+]
