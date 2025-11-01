@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>br.com.fiap.rm_87438</groupId>
 	<artifactId>globalsolution</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>globalsolution</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
