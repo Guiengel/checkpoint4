@@ -3,9 +3,9 @@ name: Continuous Integration
 on:
   push:
     branches:
-      - feature
+      - feature/**
       - hotfix
-      - develop  
+      - develop/**
 
 jobs:
     build:
