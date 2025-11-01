@@ -1,0 +1,23 @@
+name: Continuous Delivery
+
+on:
+  pull_request:
+    branches:
+      - main   
+
+jobs:
+    build_and_push:
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Checkout
+                uses: actions/checkout@v5
+            -   name: Login to Docker Hub
+                uses: docker/login-action@v3
+                with:
+                    username: ${{ vars.DOCKER_USER }}
+                    password: ${{ secrets.DOCKER_TOKEN }}
+            -   name: Build and push
+                uses: docker/build-push-action@v6
+                with:
+                    push: true
+                    tags: ${{ vars.DOCKER_USER }}/checkpoint4:latest
